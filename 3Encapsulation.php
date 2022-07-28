@@ -31,7 +31,7 @@ $obj = new abc("hello","world");
 
 // we can also change the value of model
 // if we dont want to change the value of parent class properties value, then we have concept of Encapsulation
-$obj->model = 'kanaujiya';
+$obj->model = ' Shubham';
 echo $obj->model; 
 
 // echo $obj->volume;
