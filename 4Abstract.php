@@ -10,7 +10,7 @@
 
 
 
-// create  BaseEmployee because same code repeated
+// create  BaseEmployee because same code are duplicated
 abstract class BaseEmployee{
     protected $firstname;
     protected $lastname;
@@ -41,8 +41,9 @@ class ContractEmployee extends BaseEmployee{ // inherit baseEmploye class becaus
 }
 $fulltime = new FulltimeEmployee('Aman','Bansal');
 $contract = new ContractEmployee('prashant','Mathur');
-echo $fulltime->getMonthlySalary();
-echo $contract->getFullName();
+// echo $fulltime->getMonthlySalary();
+// echo $contract->getFullName();
+echo $fulltime->getFullName();
 
 // $baseemp = new BaseEmployee("base","employee");
 // echo $baseemp->getFullName();
