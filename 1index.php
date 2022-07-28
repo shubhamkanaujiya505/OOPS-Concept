@@ -1,11 +1,15 @@
 <?php
 
+// create classs
 class TV{
-    public $modal = "xyz";
+    public $modal = "xyz"; // "xyz" assigning the default value of $modal variable 
     public $volume = 1;
 
+    public function __construct() {  // declear constructor
 
-    function volumeUp(){
+    }
+
+    function volumeUp(){ // defining function 
         $this->volume++;
     }
     function volumeDown(){
@@ -13,10 +17,11 @@ class TV{
     }
 }
 
-$TV_one = new TV();
-$TV_two = new TV();
+// create object for class TV
+$TV_one = new TV;
+$TV_two = new TV;
 
-$TV_one->volumeDown();
+echo $TV_one->volumeUp(); // calling the funtion using class onject
 
-echo $TV_one->volume;
+echo $TV_one->volume; 
 ?>
