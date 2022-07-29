@@ -6,6 +6,6 @@
 // which type of object recive ?
 // ans is polymorphism
 
-
+// refer to polymorphism folder
 
 ?>
