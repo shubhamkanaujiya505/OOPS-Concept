@@ -1,8 +1,10 @@
 <?php
 
 // abstract and interface both are different
-// In interface we are implement all class in drived class
+// In interface we are implement all declear function in drived class
 // in interface we canot make memeber variable and constructor 
+// all drived class are implementd to base class not extends 
+// extends class only in case when we define class 
 
 
 
