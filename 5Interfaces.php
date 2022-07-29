@@ -4,7 +4,9 @@
 // In interface we are implement all declear function in drived class
 // in interface we canot make memeber variable and constructor 
 // all drived class are implementd to base class not extends 
-// extends class only in case when we define class 
+// extends class only in case when we inherit class 
+// i interface only public specifier are use. you cannot use private and protected 
+
 
 
 
