@@ -2,7 +2,7 @@
 
 // create class
 class TV{
-    public $modal;
+    public $modal;  // <-if value asssign at this place so we call sapratlly so we need a constructor 
     public $volume;
     // public $timer;
     
@@ -15,7 +15,7 @@ class TV{
     }
 
     // creating a constructor
-    function __construct($m, $n){ // php magic function starting with __
+    function __construct($m, $n){ // php magic function starting with __  passing the parameter 
         $this->modal = $m;  // assigning the value 
         $this->volume = $n;
         

@@ -21,7 +21,7 @@ class TV{
 $TV_one = new TV;
 $TV_two = new TV;
 
-echo $TV_one->volumeUp(); // calling the funtion using class onject
+echo $TV_one->volumeUp(); // calling the funtion using class object
 
 echo $TV_one->volume; 
 ?>

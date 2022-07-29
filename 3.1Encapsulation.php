@@ -1,5 +1,7 @@
 <?php
 // we have done class, object, inheritance, constructor, function, variable and function overriding
+// if we dont want to change the value of parent class properties value, then we have concept of Encapsulation 
+// but we need to display the value so we use getmodel function in class
 
 // how Encapsulation concept come
 

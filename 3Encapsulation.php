@@ -1,6 +1,7 @@
 <?php
 // we have done class, object, inheritance, constructor, function, variable and function overriding
-
+// when we make more than one class so our code are vary large and run time also increase so we need inheritance 
+// in inheritance when we make a class and object than we change the classs property form out side the class this happen is not again so we need to encapsulation access modifier 
 // how Encapsulation concept come
 
 // create class
