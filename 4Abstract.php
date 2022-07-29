@@ -21,7 +21,7 @@ abstract class BaseEmployee{
         return $this->firstname." ".$this->lastname ;
     }
 
-            public abstract function getMonthlySalary(); //beacuse this function is implement in all drived classes
+        public abstract function getMonthlySalary(); //beacuse this function is implement in all drivedclasses
 
     public function __construct($f, $l){
         $this->firstname=$f;

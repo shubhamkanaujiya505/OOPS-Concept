@@ -26,8 +26,8 @@ class userAccounts extends DB{
 
 }
 $accounts = new userAccounts;
-
 $abc = new abc;
+
 $abc->select();
 $accounts->insert();
 

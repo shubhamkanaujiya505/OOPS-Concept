@@ -31,7 +31,7 @@ class UserProfile{ // 1. this class is dependent on logger
         $this->D->log("User deleted");
 
     }
-    public function __construct($logger)
+    public function __construct(logger $logger) //logger is a type hinting
     {
         $this-> logger = $logger;
     }
